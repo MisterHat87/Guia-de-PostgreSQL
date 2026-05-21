@@ -3,7 +3,8 @@ Notas de clase
 
 ---
 # 1. Parámetro AUTOCOMMIT 
-El parámetro `AUTOCOMMIT` viene siempre activado por defecto en el Postgre. Esto significa que cada sentencia SQL se confirma automáticamente después de ejecutarse.
+El parámetro `AUTOCOMMIT` viene siempre activado por defecto en el Postgre
+Esto significa que cada sentencia SQL se confirma automáticamente después de ejecutarse.
 
 Para ver su estado se utiliza el siguiente comando:
 
@@ -34,7 +35,7 @@ Prenderlo:
 
 
 ## SAVEPOINT;
-Es como Hacer un checKpoint, o un punto de guardado de una transacción
+Es como Hacer un checKpoint, o un punto de guardado de una transacción.
 Es opcional, pero es útil cuando se desea regresar solo a una parte específica de la transacción y no cancelar todo desde el inicio
 Esta es su forma de digitarlo: 
 ```sql
