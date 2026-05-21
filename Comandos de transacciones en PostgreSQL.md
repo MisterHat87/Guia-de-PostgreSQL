@@ -49,7 +49,7 @@ Hay que tener el criterio de saber en que momento hay que usar el save point y e
 
 ## ROLLBACK;
 Cargar el checkpoint 
-Cancela los cambios confirmados no confirmados, se encarga de gestionar errores, es como el ctrl z
+Cancela los cambios  no confirmados, se encarga de gestionar errores, es como el ctrl z
 ```sql
 ROLLBACK;
 ```
